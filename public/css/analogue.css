@@ -1,0 +1,11 @@
+.analogue-text {
+    opacity: 0.15;
+    transition: opacity;
+    transition-duration: 0.5s;
+}
+
+.analogue-active {
+    opacity: 1.0;
+    transition: opacity;
+    transition-duration: 1.0s;
+}
