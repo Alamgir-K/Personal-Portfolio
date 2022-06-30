@@ -1,7 +1,7 @@
 sr = ScrollReveal();
 
 sr.reveal('.navbar-brand', {duration:2000, origin:'left', distance:'7rem'})
-sr.reveal('.nav-item', {duration:2000, origin:'right ', distance:'7rem'})
+sr.reveal('.nav-item', {duration:2000, origin:'right ', distance:'7rem', mobile:false})
 sr.reveal('.analogue', {duration:2000, scale:0.2})
 sr.reveal('.title-first', {duration:2000, origin:'bottom', distance:'7rem'})
 sr.reveal('.title', {duration:2000})
