@@ -1,0 +1,35 @@
+ <section class="bg-dark text-light p-5 text-center vh-100">
+    <h1 class="">Contact Me</h1>
+
+    <div class="container pt-5">
+        <form class="row g-3" action="https://formsubmit.co/k.alamgir2002@gmail.com" method="POST" id="contact-form">
+        <input type="text" name="_honey" style="display: none;">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://www.kalamgir.com/contact" >
+
+        <div class="col-md-6">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" name="name" id="firstName" required placeholder="John">
+        </div>
+        <div class="col-md-6">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" required placeholder="Doe">
+        </div>
+        <div class="col-md-8">
+            <label for="emailInfo" class="form-label">E-mail</label>
+            <input type="email" class="form-control" name="email" id="emailInfo" required placeholder="name@example.com">
+        </div>
+        <div class="col-md-4">
+            <label for="phoneNumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="+1 (415) 867-5309">
+        </div>
+        <div class="col-md-12">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="comments" name="message" rows="3" required placeholder="Write your message here"></textarea>
+        </div>
+        <div class="col-md-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        </form>
+    </div>
+</section>
